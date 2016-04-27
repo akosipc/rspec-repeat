@@ -4,7 +4,7 @@ Repeats an RSpec example until it succeeds.
 
 ```rb
 describe 'a stubborn test' do
-  include Rspec::Repeat
+  include RSpec::Repeat
   
   around do |example|
     repeat example, 10.times
